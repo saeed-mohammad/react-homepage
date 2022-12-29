@@ -1,0 +1,25 @@
+@use "./mixin" as m;
+.submenu {
+  position: absolute;
+  flex-direction: column;
+  top: 30px;
+  right: 0;
+  width: 130px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
+
+  li {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    @include m.flex;
+    justify-content: initial;
+    .sub-icon {
+      margin-right: 5px;
+    }
+  }
+}
+.company-sub {
+  left: 0;
+}

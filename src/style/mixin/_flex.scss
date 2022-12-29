@@ -1,0 +1,32 @@
+@use "../global" as g;
+
+@mixin flex() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-colum() {
+  display: flex;
+  flex-direction: column;
+}
+@mixin after() {
+  position: absolute;
+  content: "";
+}
+@mixin btn() {
+  margin: 10px;
+  border: 1px solid g.$gry-clr;
+  padding: 8px 10px;
+  background: none;
+  outline: none;
+  border-radius: 10px;
+}
+@mixin dark-btn() {
+  margin: 10px;
+  padding: 8px 15px;
+  background: g.$dark-clr;
+  color: g.$white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}

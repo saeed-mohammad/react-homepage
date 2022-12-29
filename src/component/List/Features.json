@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Todo List",
+    "img": "../assets/images/icon-todo.svg"
+  },
+  {
+    "title": "Calendar",
+    "img": "../assets/images/icon-calendar.svg"
+  },
+  {
+    "title": "Reminders",
+    "img": "../assets/images/icon-reminders.svg"
+  },
+  {
+    "title": "Planning",
+    "img": "../assets/images/icon-planning.svg"
+  }
+]
