@@ -4,12 +4,12 @@
 .hero {
   @include m.flex;
   align-items: flex-end;
-  width: min(90%, 1440px);
+  width: min(80%, 1440px);
   margin-inline: auto;
   margin-top: 50px;
   .hero-left {
     width: 65%;
-    padding: 0 10%;
+    padding: 0 5%;
     h2 {
       font-size: clamp(28px, 5vw, 80px);
       line-height: 1.2;
