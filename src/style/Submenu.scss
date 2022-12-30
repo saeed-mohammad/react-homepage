@@ -25,7 +25,7 @@
   left: 0;
 }
 
-@media (width < 768px) {
+@media (max-width: 768px) {
   .submenu {
     width: 99%;
     top: 50px;
