@@ -1,5 +1,6 @@
 import React from "react";
 import hero_desktop from "../assets/images/image-hero-desktop.png";
+import hero_mobile from "../assets/images/image-hero-mobile.png";
 import databiz from "../assets/images/client-databiz.svg";
 import audio from "../assets/images/client-audiophile.svg";
 import meet from "../assets/images/client-meet.svg";
@@ -16,14 +17,25 @@ const Hero = () => {
         </p>
         <button className="dark-btn">Learn more</button>
         <div className="hero-client">
-          <img src={databiz} alt="client databiz" />
-          <img src={audio} alt="client databiz" />
-          <img src={meet} alt="client databiz" />
-          <img src={maker} alt="client databiz" />
+          <ul>
+            <li className="clent-img">
+              <img src={databiz} alt="client databiz" />
+            </li>
+            <li className="clent-img">
+              <img src={audio} alt="client databiz" />
+            </li>
+            <li className="clent-img">
+              <img src={meet} alt="client databiz" />
+            </li>
+            <li className="clent-img">
+              <img src={maker} alt="client databiz" />
+            </li>
+          </ul>
         </div>
       </div>
       <div className="hero-right">
-        <img src={hero_desktop} alt="man using laptop" />
+        <img src={hero_desktop} className="desktop-img" alt="man using laptop" />
+        <img src={hero_mobile} className="mobile-img" alt="man using laptop" />
       </div>
     </section>
   );

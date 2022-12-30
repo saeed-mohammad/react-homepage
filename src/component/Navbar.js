@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../style/Navbar.scss";
 import icon_menu_close from "../assets/images/icon-close-menu.svg";
 import icon_menu from "../assets/images/icon-menu.svg";

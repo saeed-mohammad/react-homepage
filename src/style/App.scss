@@ -1,5 +1,11 @@
 @use "./global" as g;
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&display=swap");
+
+:root {
+  -fs-p: 18px;
+  -fs-h2: 54px;
+  -fs-h2-test: clamp(28px, 10vw, 54px);
+}
 *,
 *::before,
 *::after {
@@ -22,9 +28,12 @@ a {
 h1 {
   font-weight: 700;
 }
+// h2 {
+//   font-size: var(-fs-h2-test);
+// }
 p {
-  font-size: 18px;
+  font-size: var(-fs-p);
 }
 #root {
-  // overflow-x: hidden;
+  overflow-x: hidden;
 }
